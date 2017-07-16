@@ -1,0 +1,79 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+ 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Glitch!</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        FCC API PROJECTS: Timestamp Microservice
+      </h1>
+    </header>
+
+    <main>
+      <h1></h1>
+<h2>Abdev</h2>
+      <h2>Example Usage:</h2>
+      <ul>
+        
+      
+
+<p class="cyan">https://timestamp--fcc.glitch.me/July%2017</p>      
+<p class="cyan">https://timestamp--fcc.glitch.me//1500160018</p>
+        </ul>
+<h2>User Stories:</h2>
+<ul>
+  <p class="cyan">I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).</li>
+  <p class="cyan">If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+  <p class="cyan">If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+</ul>
+
+<h2>Example Output:</h2>
+<ul>
+  <p class="cyan">{ "unix": 1450137600, "natural": "July 15, 2017" }</p>
+</ul>      
+      <p class="bold"></p>
+      <p></p>
+       <br>
+       <br>
+      <form>
+        <input type="text" maxlength="100" placeholder="Dreams!">
+        <button type="submit">Submit</button>
+      </form>
+      <section class="dreams">
+        <ul id="dreams">
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <a href="https://glitch.com">
+        Remix this in Glitch
+      </a>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
